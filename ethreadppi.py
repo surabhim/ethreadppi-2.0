@@ -6,7 +6,7 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 
 ## Usage example :
-# python ethread-2.0-efindsiteppi.py 12asB-hhsearch.out 12asB-raptorx.rank 12asB-sparksx.zs12 0 ./model_data/model_mcc_homo.pkl ./model_data/model_isc_homo.pkl
+# python ethreadppi.py 12asB-hhsearch.out 12asB-raptorx.rank 12asB-sparksx.zs12 0 ./model_data/model_mcc_homo.pkl ./model_data/model_isc_homo.pkl
 if len(sys.argv) != 7:
     print "USAGE : python ethreadppi.py <hhsearch>"
     print "                              <raptorx>"  
